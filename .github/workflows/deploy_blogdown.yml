@@ -48,7 +48,7 @@ jobs:
         # build dir
         build_dir: public/
         #cname: root2fork.org
-        email: koen.hufkens@gmail.com
+        #email: koen.hufkens@gmail.com
         jekyll: no
        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # https://github.com/settings/tokens
