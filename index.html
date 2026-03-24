@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="generator" content="Hugo 0.69.2" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Prof. Dr. Farhah Assaad">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Root2Fork">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#5dbb63">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans+Flex:Light+300|Momo+Signature:400|Pacifico:400|Vibur:400|Playwrite+Netherland:400&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.3b6792c179bdfb59f39e95318b5b557f.css">
+
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Root 2 Fork">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Root 2 Fork">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Root 2 Fork">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="Root 2 Fork">
+  <meta property="og:description" content="Root2Fork"><meta property="og:image" content="/img/logo.png">
+  <meta property="twitter:image" content="/img/logo.png"><meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2022-11-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Root 2 Fork</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="81" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Root 2 Fork</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#intro" data-target="#intro"><span>Goals</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#services_lg" data-target="#services_lg"><span>Vision</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts" data-target="#posts"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/team/"><span>Team</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+    
+  
+
+  
+
+  
+    
+    
+      
+    
+    
+    
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="hero" class="home-section wg-hero dark parallax " style="background-color: #fff;background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(&#39;/img/background.jpg&#39;);padding: 150px 0 50px 0;" >
+    <div class="container">
+      
+
+
+
+<div class="row">
+
+
+
+  <div class="col-10 mx-auto col-md-6 order-md-1 hero-media align-self-center">
+    <img class="hero-img img-fluid" src="/img/empty.png" alt="">
+  </div>
+
+
+<div class="col-md-6 order-md-2 text-center text-md-left align-self-end">  
+
+    
+    <div><h1 id="agroforestry-systems">Agroforestry systems</h1>
+<p>Transforming food systems with trees</p>
+</div>
+    
+
+    
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+    <p class="mt-4">
+      <a href="/#intro"  class="btn btn-light btn-lg  page-scroll">Know more</a>
+
+      
+      
+        
+        
+        
+        
+          
+        
+      <a href="/team"  class="btn btn-lg btn-outline-light page-scroll">Partners</a>
+      
+    </p>
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="intro" class="home-section wg-intro   " style="padding: 50px 0 50px 0;" >
+    <div class="container">
+      
+
+
+
+<div class="row">
+            <div class="col-12 col-md-6">
+                
+                    <h2>Introducing trees into agricultural fields</h2>
+                
+            </div>
+            <div class="col-12 col-md-6">
+              
+              <div><p>Agroforestry systems (AFSs), which introduce trees into agricultural fields, have been argued to comprise one of the most advanced and effective forms of regenerative agriculture [1]. Despite this, practioners have identified the following needs: i) how to reduce labor costs while maximizing productivity, ii) what to plant beneath and between tree rows and (iii) how to reconcile ecological regulations with economic realities. To address this, our consortium plants shrubs and shade-tolerant herbaceous perennials - such as kale, spinach or rocket within apple or quince orchards, to form multi-strata AFS (msAFS). In contrast to annuals, perennials live for many years and can be used as “permanent” strips in alley cropping, or as “permanent” ground cover within tree rows. Locally sourced food from sustainable low input systems faces significant challenges, as annual crops are highly vulnerable to pests and climate change-driven disruptions in supply chains. Perennials, with their deeper roots and longer growth periods, store carbon and regenerate soils while providing a more stable and reliable food source.</p>
+</div>
+              
+            </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="services_lg" class="home-section wg-services-lg   " style="padding: 50px 0 50px 0px;" >
+    <div class="container">
+      
+
+
+    <section class="about section-sm" id="about">
+        <div class="container">
+            
+                
+                    <div class="row mb-50 justify-content-center">
+                        <div class="col-md-5 col-sm-12 text-center offset-md-1">
+                            <img src="/img/zoe-richardson-c3rmcDjVDbc-unsplash.jpg" class="img-fluid" alt="about-image">
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <div class="content">
+                                <h2>The consortium</h2>
+                                <p>
+                                    The Root2Fork (R2F) consortium is grouped into four entities referred to as R2F- Living Labs (LLs) that span the European continent (Fig. 1). R2F-LLs in Portugal, Germany, Finland, and Norway closely with retailers and with local kitchens, restaurants, and public canteens (fork level), where chefs integrate edible perennials into menus. To restore nutrient imbalances between the land and sea, and to foster resilience to future climate, perennial seaweed will be gathered at the coast of Norway, and from seaweed farms in Finland and Tanzania to be used on land as fertilizers or biostimulants (Fig. 1). R2F-LLs have pioneered msAFS and will nucleate regional change by the power of example, actively engaging end users and ensuring a demand-driven approach.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                
+            
+                
+                    <div class="row mt-50 justify-content-center">
+                        <div class="col-md-5 col-md-5 col-sm-12 offset-md-1">
+                            <div class="content">
+                                <h2>Stakeholder engagement</h2>
+                                <p>
+                                    <p>The project will be based on three focus areas that enable direct connection between all stakeholders (especially farmers and consumers)
+and a global, cross-disciplinary assessment of the impacts of food production:</p>
+<ol>
+<li>Consolidating msAFS designs in four R2F-LLs in a participatory approach and bringing innovations that can support the agroecological
+(AE) transition to market.</li>
+<li>Addressing impacts, benefits and trade-offs via multi-actor assessment of ecosystem services, social dimensions, and economic
+performance of R2F msAFSs by remote sensing and ground truthing, and by participatory testing of assessment tools to select and
+recommend appropriate indicators.</li>
+<li>Bridging the gap from science to (i) application, (ii) policy, and (iii) society via a targeted communication strategy.</li>
+</ol>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-sm-12 text-center">
+                            <img src="/img/markus-spiske-ZSZ6wzNU12Q-unsplash.jpg" class="img-fluid" alt="about-image">
+                        </div>
+                    </div>
+                
+            
+        </div>
+    </section>
+
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="posts" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 section-heading text-center">
+    <h1>News</h1>
+    
+    
+  </div>
+  <div class="col-12">
+    <div class="row justify-content-center">
+      
+
+    </div>
+  
+    <div class = "row justify-content-center">
+      
+    </div>
+    
+  </div>
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
+    <div class="container">
+      
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 text-center section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-12">
+    
+  </div>
+  <div class="col-md-6">
+    
+    
+    <div class="col-10 mx-auto col-md-6 order-md-1 hero-media align-self-center">
+      <img class="hero-img img-fluid" src="/img/logo.png" alt="">
+    </div>
+    
+  </div>
+  <div class="col-md-6 align-self-center">
+    <ul class="fa-ul" itemscope>
+      
+      <li>
+        <i class="fa-li fas fa-envelope mt-2" aria-hidden="true"></i>
+        <span id="person-email" itemprop="email"><a
+            href="mailto:info@root2fork.org">info@root2fork.org</a></span>
+      </li>
+      
+
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-map-marker-alt mt-2" aria-hidden="true"></i>
+        <span id="person-address" itemprop="address">Emil-Ramann-Str. 4, 85354 Freising, Germany</span>
+      </li>
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-clock mt-2" aria-hidden="true"></i>
+        <span>Weekdays 09:00 to 17:00, CET</span>
+      </li>
+      
+
+      
+
+    </ul>
+  </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academia.min.e4fc229c2f28284fc2dfa5b66a52b765.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        
+        <p>
+          BlueGreen Labs © 2026 
+        </p>
+        
+        
+        
+        
+        <p class="powered-by">
+          <a href="/legal/credits/">Credits</a>
+        </p>
+        
+        
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right">
+          
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
