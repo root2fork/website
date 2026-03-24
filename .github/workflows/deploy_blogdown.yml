@@ -1,7 +1,7 @@
 on:
   push:
      branches:
-       - master
+       - main
 
 name: deployblog
 
@@ -47,7 +47,7 @@ jobs:
        with:
         # build dir
         build_dir: public/
-        #cname: bluegreenlabs.org
+        #cname: root2fork.org
         email: koen.hufkens@gmail.com
         jekyll: no
        env:
