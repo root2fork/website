@@ -1,0 +1,6 @@
+Package: root2fork-blogdown
+Type: Website
+Title: Root2Fork
+Version: 0.0.1
+Imports: blogdown
+Remotes: rstudio/blogdown
