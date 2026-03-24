@@ -36,7 +36,7 @@ jobs:
      - name: Checkout
        uses: actions/checkout@main
      - name: Download artifact
-       uses: actions/download-artifact@v1.0.0
+       uses: actions/download-artifact@v2
        with:
          # Artifact name
          name: public # optional
@@ -47,7 +47,7 @@ jobs:
        with:
         # build dir
         build_dir: public/
-        cname: berndata.cloud
+        #cname: root2fork.org
         email: koen.hufkens@gmail.com
         jekyll: no
        env:
