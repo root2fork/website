@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Root 2 Fork</title>
-    <link>/</link>
+    <link>https://root2fork.github.io/website/</link>
     <description>Recent content on Root 2 Fork</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>BlueGreen Labs &amp;copy; {year}</copyright>
     <lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://root2fork.github.io/website/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Legals</title>
-      <link>/legal/</link>
+      <link>https://root2fork.github.io/website/legal/</link>
       <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>/legal/</guid>
+      <guid>https://root2fork.github.io/website/legal/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/team/</link>
+      <link>https://root2fork.github.io/website/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/team/</guid>
+      <guid>https://root2fork.github.io/website/team/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog posts</title>
-      <link>/post/</link>
+      <link>https://root2fork.github.io/website/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/post/</guid>
+      <guid>https://root2fork.github.io/website/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/publication/</link>
+      <link>https://root2fork.github.io/website/publication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/publication/</guid>
+      <guid>https://root2fork.github.io/website/publication/</guid>
       <description></description>
     </item>
     
