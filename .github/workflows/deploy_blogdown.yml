@@ -47,7 +47,7 @@ jobs:
        with:
         # build dir
         build_dir: public/
-        #cname: root2fork.org
+        cname: root2fork.eu
         #email: koen.hufkens@gmail.com
         jekyll: no
        env:
