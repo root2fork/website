@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Root 2 Fork</title>
-    <link>https://root2fork.github.io/website/categories/</link>
+    <link>https://root2fork.eu/categories/</link>
     <description>Recent content in Categories on Root 2 Fork</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>BlueGreen Labs &amp;copy; {year}</copyright>
     
-	    <atom:link href="https://root2fork.github.io/website/categories/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://root2fork.eu/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
